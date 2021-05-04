@@ -22,13 +22,10 @@ void enQueue(Cola* cola, int entrada);
 int deQueue(Cola* cola);
 void borrarCola(Cola* cola); //libera todos los nodos de la cola
 
-//acceso a la cola
-int frente(Cola* cola);
 
 //metodos de verificacion del estado de la cola
 int colaVacia(Cola* cola);
 
-void imprimirCola(Cola* cola);
 
 
 //Setea en NULL y setea en 0 y reserva espacio tamaño MAXTAM
